@@ -13,7 +13,11 @@ def index(request):
     return render(request, 'MyCapstoneApp/index.html', context)
 
 def school_detail(request, school_id):
-    return HttpResponse('This is school %s.' % school_id)
+    try:
+        school = School.objects.get(pk=school_id)
+    except School.DoesNotExist:
+        raise Http404("School does not exist")
+    return render(request, 'MyCapstoneApp/detail.html', {'school': school})
 
 def school_athletes(request, school_id):
     return HttpResponse('These athletes compete for %s:' % school_id)
