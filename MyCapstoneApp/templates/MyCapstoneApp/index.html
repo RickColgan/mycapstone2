@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyCapstoneApp</title>
+</head>
+<body>
+
+{% if school_list %}
+    <ul>
+        {% for school in school_list %}
+            <li><a href="/track/{{ school.id }}/">{{ school.name }}</a> </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No school names are available.</p>
+{% endif %}
+
+</body>
+</html>
