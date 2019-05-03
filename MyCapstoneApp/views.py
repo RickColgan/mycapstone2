@@ -1,23 +1,30 @@
-from django.shortcuts import render
-from django.http import HttpResponse, Http404
-from django.template import loader
+from django.shortcuts import get_object_or_404, render
+from django.http import HttpResponseRedirect
+from django.urls import reverse
+from django.views import generic
 
-from .models import School
+from .models import School, Athletes
 
 # Create your views here.
-def index(request):
-    school_list = School.objects.order_by('name')
-    context = {
-        'school_list': school_list,
-    }
-    return render(request, 'MyCapstoneApp/index.html', context)
+class IndexView(generic.ListView):
+    template_name = 'MyCapstoneApp/index.html'
+    context_object_name = 'school_list'
 
-def school_detail(request, school_id):
-    try:
-        school = School.objects.get(pk=school_id)
-    except School.DoesNotExist:
-        raise Http404("School does not exist")
-    return render(request, 'MyCapstoneApp/detail.html', {'school': school})
+    def get_queryset(self):
+        """Return the schools in the list"""
+        return School.objects.order_by('name')
 
-def school_athletes(request, school_id):
-    return HttpResponse('These athletes compete for %s:' % school_id)
+
+class DetailView(generic.DetailView):
+    model = School
+    template_name = 'MyCapstoneApp/detail.html'
+
+
+class AthletesView(generic.ListView):
+    model = Athletes
+    context_object_name = 'school_list'
+    template_name = 'MyCapstoneApp/athletes.html'
+
+    def get_queryset(self):
+        """Return the athletes in the list"""
+        return Athletes.objects.get(schoolid=1)

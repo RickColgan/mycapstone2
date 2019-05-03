@@ -9,7 +9,7 @@
 {% if school_list %}
     <ul>
         {% for school in school_list %}
-            <li><a href="/track/{{ school.id }}/">{{ school.name }}</a> </li>
+            <li><a href="{% url 'MyCapstoneApp:detail' school.id %}">{{ school.name }}</a> </li>
         {% endfor %}
     </ul>
 {% else %}

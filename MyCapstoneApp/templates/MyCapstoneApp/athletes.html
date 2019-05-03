@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Athletes Information</title>
+</head>
+<body>
+
+<h1>Athletes Competing for {{ school.name }}</h1>
+<ul>
+{% for athlete in school.athlete_set.all %}
+    <li>{{ athlete.firstname }} {{ athlete.lastname }}</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
