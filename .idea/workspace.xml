@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9db9c048-d42c-4ee5-a987-9578e7d87c18" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MyCapstoneApp/static/MyCapstoneApp/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/athletes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/athletes.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/athletes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCapstoneApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCapstoneApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyCapstoneApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCapstoneApp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +18,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyCapstoneApp/static/MyCapstoneApp/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
               <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="5" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/athletes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="104" selection-start-line="6" selection-start-column="104" selection-end-line="6" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -56,12 +82,12 @@
         <option value="$PROJECT_DIR$/mycapstone/settings.py" />
         <option value="$PROJECT_DIR$/MyCapstoneApp/admin.py" />
         <option value="$PROJECT_DIR$/MyCapstoneApp/models.py" />
-        <option value="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/detail.html" />
-        <option value="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/athletes.html" />
-        <option value="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/index.html" />
         <option value="$PROJECT_DIR$/MyCapstoneApp/urls.py" />
         <option value="$PROJECT_DIR$/MyCapstoneApp/views.py" />
         <option value="$PROJECT_DIR$/MyCapstoneApp/static/MyCapstoneApp/style.css" />
+        <option value="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/index.html" />
+        <option value="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/detail.html" />
+        <option value="$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/athletes.html" />
       </list>
     </option>
   </component>
@@ -160,6 +186,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mycapstone.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -190,6 +217,8 @@
       <updated>1556761461898</updated>
       <workItem from="1556761590389" duration="320000" />
       <workItem from="1556808794393" duration="17357000" />
+      <workItem from="1556850954236" duration="624000" />
+      <workItem from="1557031328019" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="Init commit">
       <created>1556809045944</created>
@@ -216,12 +245,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17677000" />
+    <option name="totallyTimeSpent" value="18576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/athletes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyCapstoneApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -320,24 +343,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyCapstoneApp/static/MyCapstoneApp/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="176">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="5" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCapstoneApp/static/MyCapstoneApp/style.css">
+    <entry file="file://$PROJECT_DIR$/MyCapstoneApp/templates/MyCapstoneApp/athletes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="132">
+          <caret line="6" column="104" selection-start-line="6" selection-start-column="104" selection-end-line="6" selection-end-column="104" />
         </state>
       </provider>
     </entry>
