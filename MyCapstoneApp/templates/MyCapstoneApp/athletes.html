@@ -8,9 +8,9 @@
 </head>
 <body>
 
-<h1>Athletes Competing for {{ school.name }}</h1>
+<h1>Athletes List</h1>
 <ul>
-{% for athlete in school.athlete_set.all %}
+{% for athlete in athletes_list %}
     <li>{{ athlete.firstname }} {{ athlete.lastname }}</li>
 {% endfor %}
 </ul>

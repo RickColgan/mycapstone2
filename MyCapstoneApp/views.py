@@ -22,9 +22,9 @@ class DetailView(generic.DetailView):
 
 class AthletesView(generic.ListView):
     model = Athletes
-    context_object_name = 'school_list'
+    context_object_name = 'athletes_list'
     template_name = 'MyCapstoneApp/athletes.html'
 
     def get_queryset(self):
         """Return the athletes in the list"""
-        return Athletes.objects.get(schoolid=1)
+        return Athletes.objects.order_by('lastname')
