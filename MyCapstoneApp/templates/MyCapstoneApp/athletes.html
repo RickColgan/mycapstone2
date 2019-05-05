@@ -8,10 +8,10 @@
 </head>
 <body>
 
-<h1>Athletes List</h1>
+<h1>Athletes List {{ id }}</h1>
 <ul>
 {% for athlete in athletes_list %}
-    <li>{{ athlete.firstname }} {{ athlete.lastname }}</li>
+        <li>{{ athlete.firstname }} {{ athlete.lastname }}</li>
 {% endfor %}
 </ul>
 
